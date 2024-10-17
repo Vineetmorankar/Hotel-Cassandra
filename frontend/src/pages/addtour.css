@@ -1,0 +1,56 @@
+/* Style for the form container */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(224, 195, 195, 0.1);
+}
+
+/* Style for form inputs */
+.form-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style for form textarea */
+.form-textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+    /* Allow vertical resizing of textarea */
+}
+
+/* Style for submit button */
+.form-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for submit button */
+.form-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+    .form-container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
